@@ -8,3 +8,5 @@ buildFolder:
 clean:
 	rm -rf build
 
+install:
+	./install.sh

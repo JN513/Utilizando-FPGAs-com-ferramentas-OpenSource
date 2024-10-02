@@ -16,7 +16,7 @@ install_fedora() {
 # Função para instalar dependências no Arch
 install_arch() {
     echo "Detectado Arch. Instalando TeX Live..."
-    sudo pacman -Syu --noconfirm texlive-most
+    sudo pacman -Syu --noconfirm texlive-bin texlive-basic texlive-binextra
 }
 
 # Detectando a distribuição
